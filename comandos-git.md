@@ -8,7 +8,6 @@
 `git rm <file_name>`  
 `git diff <codigo_versão>`  
 `git reset <codigo_versão>`  
-`git branch` _//listar branchs_  
 `git status`  
 
 ## Commit
@@ -17,11 +16,13 @@
 `git commit --amend -m "msg"` _//editar msg do commit mais recente_  
 `git commit --amend --no-edit` _//O sinalizador --no-edit permitirá que você faça a emenda no seu commit sem alterar a mensagem do commit dele. (usado quando faz commit mas esqueceu de add algum arquivo. Então faz o add do arquivo que falta e dá esse comando)_  
 
-## Checkout
+## Checkout/Branchs
 `git checkout -- <file_name>`  
 `git checkout <nome_branch>`  
 `git checkout <codigo_commit>`  
-`git checkout <coodigo_commit> -b <nome_branch>`  
+`git checkout <codigo_commit> -b <nome_branch>`  
+`git branch` _//listar branchs_  
+`git branch -d <nome_local_branch>` _//deletar local branch_  
 
 ## Log
 `git log`  
