@@ -1,6 +1,9 @@
 # Comandos Docker
 > coleção de comandos do Docker
 
+## Docker compose
+`docker-compose down` _//Stops containers and removes containers, networks, volumes, and images created by up_ 
+
 ## Gerais
 `docker version`  
 `docker ps` _//lista containers ativos_  
